@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TouchSpeedChecker"
+    android:padding="10dp"
+    android:id="@+id/parent"
+    android:clickable="true"
+    android:longClickable="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZARA ZARA TOUCH ME TOUCH ME TOUCH ME "
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:id="@+id/textZztmtm"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:text=""
+        android:layout_centerInParent="true"
+        app:autoSizeTextType="uniform"
+        android:id="@+id/txtSpeed"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:text=""
+        android:layout_centerInParent="true"
+        app:autoSizeTextType="uniform"
+        android:id="@+id/txtSpeedFinal"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSpeed"
+        android:text="Total Taps"
+        android:textSize="50dp"
+        android:layout_below="@+id/textZztmtm"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info"
+        android:layout_below="@id/textZztmtm"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_margin="40dp"
+        android:id="@+id/btnInfo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed "
+        android:layout_below="@+id/txtSpeed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:id="@+id/textFinalSpeed"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/txtSpeed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@id/textFinalSpeed"
+        android:id="@+id/txtFinalSpeed"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_timer"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/textZztmtm"
+        android:id="@+id/imageTimer"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_timer_completed"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/textZztmtm"
+        android:id="@+id/imageTimerCompleted"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTimer"
+        android:text="30"
+        android:layout_below="@id/textZztmtm"
+        android:layout_toRightOf="@id/imageTimer"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+
+
+
+</RelativeLayout>
