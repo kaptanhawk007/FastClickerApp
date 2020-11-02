@@ -6,5 +6,22 @@
         <item name="colorPrimaryDark">#3D7BF4</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!--Dice activity theme setting  -->
+    <style name="DiceActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#53C2DA</item>
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
+    </style>
+    <style name="some_id">
+
+        <item name="android:textSize">
+            96sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.1
+        </item>
+
+    </style>
 </resources>

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DigitalDice"></activity>
+        <activity android:name=".DigitalDice"
+            android:theme="@style/DiceActivity"
+            >
+        </activity>
         <activity android:name=".TouchSpeedChecker" />
         <activity android:name=".MainActivity">
             <intent-filter>

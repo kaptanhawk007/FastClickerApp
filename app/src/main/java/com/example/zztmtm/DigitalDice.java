@@ -1,6 +1,7 @@
 package com.example.zztmtm;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +12,7 @@ import java.util.Random;
 
 public class DigitalDice extends AppCompatActivity {
     private TextView txtDiceNumber;
-    private RelativeLayout parent;
+    private ConstraintLayout parent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
