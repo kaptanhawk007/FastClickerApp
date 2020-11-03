@@ -23,7 +23,7 @@ public class TouchSpeedChecker extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_touch_speed_checker);
         final InfoDialogue dialogue=new InfoDialogue();
-        dialogue.show(getSupportFragmentManager(),"Info");
+//        dialogue.show(getSupportFragmentManager(),"Info";
 
         initViews();
         btnInfo.setOnClickListener(new View.OnClickListener() {
